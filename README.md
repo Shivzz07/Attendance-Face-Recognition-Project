@@ -19,6 +19,7 @@ This project is an AI-powered attendance system that uses face recognition to au
 5.CSV – for saving attendance data
 
 📂 Project Structure
+
 Attendance-Face-Recognition-Project/
 │
 ├── ImageAttendance/        # Folder with reference images (one per person)
@@ -27,6 +28,7 @@ Attendance-Face-Recognition-Project/
 └── README.md               # Project documentation
 
 ⚙️ How It Works
+
 -> Add reference images of each person inside the ImageAttendance folder.
 -> Filename = Person’s name (e.g., shivam.jpg → "SHIVAM").
 -> Run the script:
@@ -37,11 +39,13 @@ Press q to stop the program.
 A file called face_times.csv will be created with everyone’s attendance duration.
 
 📊 Example Output (CSV) (In development stage)
+
 Name	Total Time (HH:MM:SS)
 SHIVAM	01:25:32
 THE_ROCK	00:53:10
 
 🎯 Use Cases
+
 ~ Classroom attendance tracking
 ~ Office meeting logs
 ~ Workshop & event participation tracking
